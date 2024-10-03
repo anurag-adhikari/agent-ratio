@@ -10,16 +10,12 @@ nav {
 }
 
 @media screen  and (max-width: 480px){
-  body {
-    font-size: 14px; /* Set a more appropriate base font size */
-  }
-
   td {
-    font-size: 0.75em; /* Ensure headers are responsive */
+    font-size: 0.75em;
   }
 
   span {
-    font-size: 0.75em; /* Regular paragraphs should be readable */
+    font-size: 0.75em;
   }
   a {
 
