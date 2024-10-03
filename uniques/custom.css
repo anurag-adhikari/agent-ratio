@@ -1,0 +1,123 @@
+.gradient-background {
+  background-image: linear-gradient(#292f53, #000000);
+  min-height: 100vh; /* Ensure it covers the full height */
+  background-size: cover; /* Ensure the gradient covers the entire area */
+  background-repeat: no-repeat;
+}
+
+nav {
+  padding: 48px 0;
+}
+
+main {
+  padding-bottom: 48px;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.header-text {
+  font-size: calc(1.75em);
+}
+
+.logo-img {
+  width: 50px;
+}
+
+html.dark table.dataTable thead tr > .dtfc-fixed-left,
+html.dark table.dataTable thead tr > .dtfc-fixed-right,
+html.dark table.dataTable tfoot tr > .dtfc-fixed-left,
+html.dark table.dataTable tfoot tr > .dtfc-fixed-right,
+.table thead th {
+  background-color: #5b3f86;
+  color: #ffffff;
+}
+
+.table-fixed-left {
+  position: sticky;
+  left: 0;
+  background-color: white; /* Ensure it blends with the table's background */
+  z-index: 1;
+}
+
+.table-fixed-left:first-child {
+  z-index: 2; /* Ensure the first fixed column is on top */
+}
+
+footer .container {
+  margin-top: 0; /* Ensure no margin at the top of the container in the footer */
+}
+
+/* Ensure the table header is fixed */
+.dataTables_scrollHeadInner {
+  box-sizing: border-box;
+  width: 100% !important;
+}
+
+.table-fixed-left {
+  position: sticky;
+  left: 0;
+  background-color: white; /* Ensure it blends with the table's background */
+  z-index: 1;
+}
+
+.table-fixed-left:first-child {
+  z-index: 2; /* Ensure the first fixed column is on top */
+}
+
+
+/* Update select-dropdown styles to match the provided image color */
+.select-dropdown,
+.select-dropdown > option {
+  background-color: #5b3f86;
+  color: white;
+  border: 1px solid #5b3f86;
+  padding: 0.5em 1.5em 0.5em 0.5em;
+  font-size: 1em;
+  border-radius: 0.25em;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.5em top 50%;
+  background-size: 1em;
+}
+.select-dropdown:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(75, 33, 114, 0.5); /* Update shadow to match the purple color */
+}
+
+/* Adjust the font size of the "Select Stats" heading */
+.select-stats-title {
+  font-size: 1.5rem;
+}
+
+/* Adjust the dropdowns to have a margin between them in mobile view */
+@media (max-width: 767.98px) {
+  .dropdowns .col-md-6 {
+    margin-bottom: 15px;
+  }
+}
+
+.dt-paging-button.page-item.active {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.dt-paging-button.page-item.active .page-link {
+    color: white !important;
+    background-color: #5b3f86 !important;
+    border-color: #5b3f86 !important;
+}
+
+.page-link{
+    color: white;
+}
+
+html.dark table.dataTable tbody tr>.dtfc-fixed-left, html.dark table.dataTable tbody tr>.dtfc-fixed-right
+{
+    text-align: left;
+}
+
+table{
+    border-collapse:separate;
+}
