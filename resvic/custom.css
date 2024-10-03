@@ -9,6 +9,25 @@ nav {
   padding: 48px 0;
 }
 
+@media screen  and (max-width: 480px){
+  body {
+    font-size: 14px; /* Set a more appropriate base font size */
+  }
+
+  td {
+    font-size: 0.75em; /* Ensure headers are responsive */
+  }
+
+  span {
+    font-size: 0.75em; /* Regular paragraphs should be readable */
+  }
+  a {
+
+    font-size: 0.75em !important;
+  }
+}
+
+
 main {
   padding-bottom: 48px;
 }
